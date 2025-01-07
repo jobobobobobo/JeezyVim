@@ -26,7 +26,7 @@ dashboard.section.header.val = {
   '                                                                       ',
 }
 dashboard.section.buttons.val = {
-  dashboard.button('e', '󱝩  Explorer', ':NvimTreeToggle<CR>'),
+  dashboard.button('e', '󱝩  Explorer', ':CHADopen<CR>'),
   dashboard.button(
     'f',
     '  Find file',
@@ -40,8 +40,6 @@ dashboard.section.buttons.val = {
   ),
   dashboard.button('q', '  Quit JeezyVim', ':qa<CR>'),
 }
-
-dashboard.section.footer.val = 'Free Palestine'
 
 dashboard.section.footer.opts.hl = 'Type'
 dashboard.section.header.opts.hl = 'Include'
